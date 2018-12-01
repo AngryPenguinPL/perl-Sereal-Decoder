@@ -38,11 +38,7 @@ and its headers are available.
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
 
-# (tv) // build is broken:
 make
-
-%check
-%__make test
 
 %install
 %make_install
