@@ -44,6 +44,6 @@ make
 %make_install
 
 %files
-%doc Changes INSTALL META.json META.yml MYMETA.yml
+%doc Changes INSTALL META.json META.yml
 %{_mandir}/man3/*
 %perl_vendorarch/*
